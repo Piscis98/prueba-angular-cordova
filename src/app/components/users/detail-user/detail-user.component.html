@@ -1,0 +1,29 @@
+
+<div class="container-dialog">
+   
+    <img class="image2" mat-card-image src="../../../../assets/images/{{data?.image}}" alt="Photo">
+
+    <div class="info1">
+        <p> <b>{{data?.name}}</b></p>
+        <p><b>Email: </b> {{data?.email}}</p>
+        <p><b>Género: </b> {{data?.gender}}</p>
+    </div>
+
+    <div class="info2">
+        <p>{{data?.description}}</p>
+    </div>
+
+    <mat-card-actions class="detail">
+        <button 
+        
+        mat-raised-button #tooltip="matTooltip"
+        matTooltip="Cerrar"
+        [matTooltipPosition]="variablesSvc.positionsTooltip[0]"
+        matTooltipHideDelay="100"
+        matTooltipClass="tooltip"
+        aria-label="Button that displays a tooltip that hides when scrolled out of the container"
+
+        (click)="cerrarDialogo()" color="primary" mat-button>Cerrar</button>
+     </mat-card-actions>
+
+</div>

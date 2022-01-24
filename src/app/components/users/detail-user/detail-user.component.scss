@@ -1,0 +1,202 @@
+.container-dialog{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(212, 216, 219);
+    overflow: hidden !important;
+}
+
+.image2{
+    width: 80%;
+    height: 50%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    // background-color: blue;
+}
+
+.info1{
+    width: 100%;
+    height: 15%;
+    margin-bottom: 1%;
+    text-align: center;
+    // background-color: aquamarine;
+}
+
+.info2{
+    width: 100%;
+    height: 18%;
+    text-align: center;
+    margin: 0%;
+    // background-color: blue;
+}
+
+.detail{
+    width: 100%;
+    height: 8%;
+    // padding: 25%;
+    text-align: center;
+    justify-content: center;
+    button{
+        // background-color:deepskyblue;
+        background-color: red;
+        color: #fff;
+    }
+}
+
+@media (max-width:480px){
+
+    .container-dialog{
+        width: 100%;
+        height: 100%;
+        background-color: rgb(212, 216, 219);
+        overflow: hidden !important;
+    }
+    
+    .image2{
+        width: 95%;
+        height: 50%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        margin-bottom: 1%;
+        margin-top: 1%;
+        // background-color: blue;
+    }
+    
+    .info1{
+        width: 100%;
+        height: 15%;
+        margin-bottom: 1%;
+        text-align: center;
+        // background-color: aquamarine;
+    }
+    
+    .info2{
+        width: 100%;
+        height: 20%;
+        text-align: center;
+        margin: 0%;
+        // background-color: blue;
+    }
+    
+    .detail{
+        width: 100%;
+        height: 8%;
+        // padding: 25%;
+        text-align: center;
+        justify-content: center;
+        button{
+            // background-color:deepskyblue;
+            background-color: red;
+            color: #fff;
+        }
+    }
+        
+    
+}
+
+
+@media only screen and (min-width:481px) and (max-width:780px){
+    
+    .container-dialog{
+        width: 100%;
+        height: 100%;
+        background-color: rgb(212, 216, 219);
+        overflow: hidden !important;
+    }
+    
+    .image2{
+        width: 95%;
+        height: 50%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        margin-bottom: 1%;
+        margin-top: 1%;
+        // background-color: blue;
+    }
+    
+    .info1{
+        width: 100%;
+        height: 15%;
+        margin-bottom: 1%;
+        text-align: center;
+        font-size: large;
+        // background-color: aquamarine;
+    }
+    
+    .info2{
+        width: 100%;
+        height: 20%;
+        text-align: center;
+        margin: 0%;
+        font-size: large;
+        // background-color: blue;
+    }
+    
+    .detail{
+        width: 100%;
+        height: 8%;
+        // padding: 25%;
+        text-align: center;
+        justify-content: center;
+        button{
+            // background-color:deepskyblue;
+            background-color: red;
+            color: #fff;
+        }
+    }
+    
+}
+
+
+@media only screen and (min-width:781px) and (max-width:1024px){
+    
+    .container-dialog{
+        width: 100%;
+        height: 100%;
+        background-color: rgb(212, 216, 219);
+        overflow: hidden !important;
+    }
+    
+    .image2{
+        width: 95%;
+        height: 50%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        margin-bottom: 1%;
+        margin-top: 1%;
+        // background-color: blue;
+    }
+    
+    .info1{
+        width: 100%;
+        height: 15%;
+        margin-bottom: 1%;
+        text-align: center;
+        font-size: large;
+        // background-color: aquamarine;
+    }
+    
+    .info2{
+        width: 100%;
+        height: 20%;
+        text-align: center;
+        margin: 0%;
+        font-size: large;
+        // background-color: blue;
+    }
+    
+    .detail{
+        width: 100%;
+        height: 8%;
+        // padding: 25%;
+        text-align: center;
+        justify-content: center;
+        button{
+            // background-color:deepskyblue;
+            background-color: red;
+            color: #fff;
+        }
+    }
+    
+}

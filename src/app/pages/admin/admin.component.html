@@ -1,0 +1,77 @@
+
+<mat-toolbar color="primary" class="navbar">
+
+    <span color="primary" (click)="opened=!opened">
+        <mat-icon
+        
+        mat-raised-button #tooltip="matTooltip"
+        matTooltip="Menu"
+        [matTooltipPosition]="variablesSvc.positionsTooltip[0]"
+        matTooltipHideDelay="100"
+        matTooltipClass="tooltip"
+        aria-label="Button that displays a tooltip that hides when scrolled out of the container"
+        >menu</mat-icon>
+    </span>
+
+    &nbsp; &nbsp;
+
+    <a class="link" routerLink="/home">Inicio</a>
+
+    <span class="fill-remaining-space"></span>
+
+</mat-toolbar>
+
+<mat-sidenav-container>
+    <mat-sidenav #sideNav [(opened)]="opened" mode="side">
+
+        <mat-nav-list
+        
+               mat-raised-button #tooltip="matTooltip"
+                matTooltip="Listado"
+                [matTooltipPosition]="variablesSvc.positionsTooltip[0]"
+                matTooltipHideDelay="100"
+                matTooltipClass="tooltip"
+                aria-label="Button that displays a tooltip that hides when scrolled out of the container"
+        >
+            <a mat-list-item routerLink="list-user-default" routerLinkActive="link-active">
+                <mat-icon>label_important</mat-icon>&nbsp;Usuarios
+            </a>
+        </mat-nav-list>
+
+        <!-- <mat-divider></mat-divider> -->
+
+        <mat-nav-list
+        
+        mat-raised-button #tooltip="matTooltip"
+        matTooltip="Listado carrusel"
+        [matTooltipPosition]="variablesSvc.positionsTooltip[0]"
+        matTooltipHideDelay="100"
+        matTooltipClass="tooltip"
+        aria-label="Button that displays a tooltip that hides when scrolled out of the container"
+        
+        >
+            <a mat-list-item routerLink="list-user-carousel" routerLinkActive="link-active">
+                <mat-icon>label_important</mat-icon>&nbsp; Usuarios (Carrusel)
+            </a>
+        </mat-nav-list>
+
+
+    </mat-sidenav>
+
+    <mat-sidenav-content>
+
+        <div class="superior">
+
+            <h2>{{variablesSvc.title}}</h2>
+
+            <span class="fill-remaining-space"></span>
+
+            <input #search class="search" type="text" matInput placeholder="Buscar"  formControlName="" (keyup)="buscar(search.value)" required>
+
+        </div>
+
+        <router-outlet></router-outlet>
+    </mat-sidenav-content>
+
+
+</mat-sidenav-container>

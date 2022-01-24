@@ -1,0 +1,31 @@
+
+<div class="list-content"> 
+    <mat-card class="card" *ngFor="let user of variablesSvc.users;">
+        <img class="image" mat-card-image src="../../../../assets/images/{{user.image}}" alt="Photo">
+        <mat-card-content class="content">
+          <p>
+            <b>Nombre: </b> {{user.name}}
+          </p>
+          <br>
+          <p>
+           {{ user.description.substring(0,100)}}...
+          </p>
+         
+        </mat-card-content>
+        <mat-card-actions class="detail">
+            <button 
+            
+            mat-raised-button #tooltip="matTooltip"
+        matTooltip="Detalle"
+        [matTooltipPosition]="variablesSvc.positionsTooltip[0]"
+        matTooltipHideDelay="100"
+        matTooltipClass="tooltip"
+        aria-label="Button that displays a tooltip that hides when scrolled out of the container"
+
+            (click)="verDetalle(user)" color="" mat-button>Ver detalle</button>
+         </mat-card-actions>
+    
+      </mat-card>
+    
+      
+     </div> 
