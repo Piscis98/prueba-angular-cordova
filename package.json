@@ -5,6 +5,9 @@
     "ng": "ng",
     "start": "ng serve --port 4200",
     "build": "ng build",
+    "cordova":"ng build --base-href . --output-path cordova/www",
+    "cordova-run-browser":"npm run cordova && cd cordova && npm install && cordova run browser",
+    "cordova-run-android":"npm run cordova && cd cordova && npm install && cordova run android --buildConfig=build.json",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
@@ -42,3 +45,5 @@
     "typescript": "~4.3.5"
   }
 }
+
+

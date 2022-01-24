@@ -1,0 +1,132 @@
+[
+
+    {
+        "name": "Rick Sanchez",
+        "email":"mabelsong@ask.com",
+        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Non earum dolores ab molestiae eligendi ex quos! Iusto aliquid voluptatibus quas quaerat rem esse qui error! Doloribus qui eius expedita numquam? ",
+        "gender": "Male",
+        "id": "1",
+        "image": "1.jpeg"
+      },
+      {
+        "name": "Morty Smith",
+        "email":"jdoodsoni@opera.com",
+        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Non earum dolores ab molestiae eligendi ex quos! Iusto aliquid voluptatibus quas quaerat rem esse qui error! Doloribus qui eius expedita numquam? ",
+        "gender": "Male",
+        "id": "2",
+        "image": "2.jpeg"
+      },
+      {
+        "name": "Summer Smith",
+        "email":"mmabbot9@bloglovin.com",
+        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Non earum dolores ab molestiae eligendi ex quos! Iusto aliquid voluptatibus quas quaerat rem esse qui error! Doloribus qui eius expedita numquam? ",
+        "gender": "Female",
+        "id": "3",
+        "image": "3.jpeg"
+      },
+      {
+        "name": "Beth Smith",
+        "email":"hjackalin4@umn.edu",
+        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Non earum dolores ab molestiae eligendi ex quos! Iusto aliquid voluptatibus quas quaerat rem esse qui error! Doloribus qui eius expedita numquam? ",
+        "gender": "Female",
+        "id": "4",
+        "image": "4.jpeg"
+      },
+      {
+        "name": "Jerry Smith",
+        "email":"tsandys2@java.com",
+        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Non earum dolores ab molestiae eligendi ex quos! Iusto aliquid voluptatibus quas quaerat rem esse qui error! Doloribus qui eius expedita numquam? ",
+        "gender": "Male",
+        "id": "5",
+        "image": "5.jpeg"
+      },
+      {
+        "name": "Abadango Cluster Princess",
+        "email":"gpritchitt3@instagram.com",
+        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Non earum dolores ab molestiae eligendi ex quos! Iusto aliquid voluptatibus quas quaerat rem esse qui error! Doloribus qui eius expedita numquam? ",
+        "gender": "Female",
+        "id": "6",
+        "image": "6.jpeg"
+      },
+      {
+        "name": "Abradolf Lincler",
+        "email":"hjackalin4@umn.edu",
+        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Non earum dolores ab molestiae eligendi ex quos! Iusto aliquid voluptatibus quas quaerat rem esse qui error! Doloribus qui eius expedita numquam? ",
+        "gender": "Male",
+        "id": "7",
+        "image": "7.jpeg"
+      },
+      {
+        "name": "Adjudicator Rick",
+        "email":"hjackalin4@umn.edu",
+        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Non earum dolores ab molestiae eligendi ex quos! Iusto aliquid voluptatibus quas quaerat rem esse qui error! Doloribus qui eius expedita numquam? ",
+        "gender": "Male",
+        "id": "8",
+        "image": "8.jpeg"
+      },
+      {
+        "name": "Agency Director",
+        "email":"hjackalin4@umn.edu",
+        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Non earum dolores ab molestiae eligendi ex quos! Iusto aliquid voluptatibus quas quaerat rem esse qui error! Doloribus qui eius expedita numquam? ",
+        "gender": "Male",
+        "id": "9",
+        "image": "9.jpeg"
+      },
+      {
+        "name": "Alan Rails",
+        "email":"jkroger6@mlb.com",
+        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Non earum dolores ab molestiae eligendi ex quos! Iusto aliquid voluptatibus quas quaerat rem esse qui error! Doloribus qui eius expedita numquam? ",
+        "gender": "Male",
+        "id": "10",
+        "image": "10.jpeg"
+      },
+      {
+        "name": "Albert Einstein",
+        "email":"jkroger6@mlb.com",
+        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Non earum dolores ab molestiae eligendi ex quos! Iusto aliquid voluptatibus quas quaerat rem esse qui error! Doloribus qui eius expedita numquam? ",
+        "gender": "Male",
+        "id": "11",
+        "image": "11.jpeg"
+      },
+      {
+        "name": "Alexander",
+        "email":"msumnall7@4shared.com",
+        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Non earum dolores ab molestiae eligendi ex quos! Iusto aliquid voluptatibus quas quaerat rem esse qui error! Doloribus qui eius expedita numquam? ",
+        "gender": "Male",
+        "id": "12",
+        "image": "12.jpeg"
+      },
+      {
+        "name": "Alien Googah",
+        "email":"jhutchcraftc@g.co",
+        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Non earum dolores ab molestiae eligendi ex quos! Iusto aliquid voluptatibus quas quaerat rem esse qui error! Doloribus qui eius expedita numquam? ",
+        "gender": "unknown",
+        "id": "13",
+        "image": "13.jpeg"
+      },
+      {
+        "name": "Alien Morty",
+        "email":"msumnall7@4shared.com",
+        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Non earum dolores ab molestiae eligendi ex quos! Iusto aliquid voluptatibus quas quaerat rem esse qui error! Doloribus qui eius expedita numquam? ",
+        "gender": "Male",
+        "id": "14",
+        "image": "14.jpeg"
+      },
+      {
+        "name": "Alien Rick",
+        "email":"jhutchcraftc@g.co",
+        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Non earum dolores ab molestiae eligendi ex quos! Iusto aliquid voluptatibus quas quaerat rem esse qui error! Doloribus qui eius expedita numquam? ",
+        "gender": "Male",
+        "id": "15",
+        "image": "15.jpeg"
+      },
+      {
+        "name": "Amish Cyborg",
+        "email":"msumnall7@4shared.com",
+        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Non earum dolores ab molestiae eligendi ex quos! Iusto aliquid voluptatibus quas quaerat rem esse qui error! Doloribus qui eius expedita numquam? ",
+        "gender": "Male",
+        "id": "16",
+        "image": "16.jpeg"
+      }
+
+]

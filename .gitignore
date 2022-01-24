@@ -1,3 +1,6 @@
+# cordova/.gitignore
+# cordova/platforms/android/
+# cordova/platforms/browser/
 # Logs
 logs
 *.log
