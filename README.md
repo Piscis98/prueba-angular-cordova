@@ -2,6 +2,14 @@
 
 Prueba Angular/Cordova.
 
+Links del proyecto en producción
+
+https://prueba-angular-50bf2.firebaseapp.com/
+
+O también
+
+https://prueba-angular-50bf2.web.app/
+
 ## Tecnologías utilizadas
 
 Node version 14.18.0
@@ -58,7 +66,7 @@ Nota: Debe de tener instalado una versión de android compatible con cordova-and
 Deberá seguir la documentación de configuración de Android en `https://cordova.apache.org/docs/en/10.x/guide/platforms/android/index.html`
 
 
-Una vez tenga todo listo podrá el comando del package.json del proyecto angular:
+Una vez tenga todo listo podrá ejecutar el comando del package.json del proyecto angular:
 
 npm run cordova-run-android
 
